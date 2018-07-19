@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ff6600"
+    android:layout_height="match_parent"
+    tools:context="mharish.leavemanager.fragment.About">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        card_view:cardBackgroundColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardCornerRadius="4dp">
+        <TextView
+            android:text="This Application is developed as Android App for the purpose of project demo"
+            android:layout_width="match_parent"
+            android:textSize="37dp"
+            android:textAlignment="center"
+            android:id="@+id/carder"
+            android:textColor="#ff6600"
+            android:textStyle="italic"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>
